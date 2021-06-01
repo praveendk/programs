@@ -1,0 +1,4 @@
+# for loop practise
+fruits = ["banana", "apple", "mango"]
+for x in fruits:
+      print(x)
