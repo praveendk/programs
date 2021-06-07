@@ -1,0 +1,18 @@
+#lists inserting, apending, removing and sorting
+print("Welcome to Family relations program! ")
+name = input("Please enter your name: \n")
+father = input("Please enter your father name: \n")
+mother = input("Please enter your mother name: \n")
+family = [name]
+family.append(father)
+family.insert(1, mother)
+print("Names of the family as of now: ", family)
+family.sort(key=str.lower)
+print("Ascending order of the family names: ", family)
+brother = input("Please enter brother name: \n")
+sister = input("Please enter your sister name: \n")
+family.insert(3, brother)
+family.append(sister)
+print("Family members are: ", family)
+family.sort(reverse = True)
+print("Sort of family names in the reversing order: ", family)
